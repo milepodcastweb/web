@@ -1,0 +1,25 @@
+{% assign current_page = 'index' %}
+{% assign page_title = 'Welcome' %}
+{% include head.html %}
+{% include nav.html %}
+{% include mobile-nav.html%}
+
+
+<main>
+  {% include hero.html %}
+
+  <div class="md:mt-32 cta-container">
+    <div class="cta-image" style="background-image: url({{page.cta_image}});"></div>
+  </div>
+
+  {% include about.html %}
+
+  {% include services.html %}
+
+  {% include last_episodes.html %}
+
+</main>
+
+
+
+{% include footer.html %}
