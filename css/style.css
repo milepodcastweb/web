@@ -415,8 +415,7 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
   }
 
   .cta-container {
-    aspect-ratio: 3 / 1;
-    padding-top: calc(1 / 3 * 100%);
+    height: 150px;
   }
   #about .about-logo {
     width: 140px;
