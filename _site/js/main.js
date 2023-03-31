@@ -19,7 +19,6 @@ import SmoothScroll from './smoothScroll.js'
 
     element.addEventListener('click', (e) => {
       const goTo = document.getElementById(e.target.dataset.scrollElement)
-      console.log(goTo)
       goTo.scrollIntoView({ behavior: 'smooth' })
     })
     
@@ -157,9 +156,7 @@ import SmoothScroll from './smoothScroll.js'
   if(screen.width < 500){
     window.onscroll = (e) => {
       const mobileLogo = document.querySelector('header .logo')
-      console.log(mobileLogo)
       if(window.scrollY > 100){
-        console.log('uslo')
         mobileLogo.classList.remove('w-20')
         mobileLogo.classList.add('w-16')
       }
