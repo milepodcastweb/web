@@ -19,7 +19,16 @@ import SmoothScroll from './smoothScroll.js'
 
     element.addEventListener('click', (e) => {
       const goTo = document.getElementById(e.target.dataset.scrollElement)
-      goTo.scrollIntoView({ behavior: 'smooth' })
+      if(document.body.classList.contains('open-menu')){
+        document.body.classList.remove('open-menu')
+        setTimeout(() => {
+          goTo.scrollIntoView({ behavior: 'smooth' })
+        }, 400);
+      }
+      else {
+        goTo.scrollIntoView({ behavior: 'smooth' })
+      }
+    
     })
     
     element.onmouseover = event => {
