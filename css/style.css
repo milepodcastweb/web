@@ -375,7 +375,10 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
     padding-right: 0;
   }
   #trailer {
-    display: none;
+    display: none !important;
+  }
+  #trailer .trailer-icon {
+    display: none !important;
   }
   #blob-parent {
     top: 50%;
@@ -399,7 +402,7 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
   }
 
   .cta-image {
-    height: 100%;
+    height: 135px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
