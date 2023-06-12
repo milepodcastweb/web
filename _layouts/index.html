@@ -6,17 +6,66 @@
 
 
 <main>
-  {% include hero.html %}
+  <section id="hero" class="container mx-auto mb-10 md:mb-40 md:pt-16">
+    <div class="w-full flex flex-col-reverse md:gap-x-12 md:flex-row items-center justify-center">
+      <div class="w-full md:w-auto p-6 md:-mt-16">
+        <h1 class="hero-author mb-8 md:mb-10">{{ page.author_name }}</h1>
+        <div class="hero-text">
+          {{ page.hero_text }}
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="{{ page.hero_image }}" alt="{{ page.author_name }}">
+      </div>
+    </div>
+  </section>
 
   <div class="md:mt-32 cta-container">
-    <div class="cta-image" style="background-image: url({{page.cta_image}});"></div>
+    <div class="cta-image" style="background-image: url('{{ page.cta_image }}');"></div>
   </div>
 
-  {% include about.html %}
+  <section id="about" class="py-8 md:py-20 relative">
+    <div class="container mx-auto relative flex flex-col items-center justify-center py-16 text-white z-10">
+      <div class="about-logo mb-16">
+        <img src="{{ page.spinning_logo }}" alt="{{ page.author_name }} logo">
+      </div>
+      <div class="about-text">
+        {{ page.about_text | markdownify }}
+      </div>
+    </div>
+  </section>
 
-  {% include services.html %}
+  <section id="services" class="pt-20 md:pt-32">
+    <div class="services-box">
+      <div class="mb-16 md:mb-0">
+        <h3 class="mb-6 md:mb-10">Pretplatite se na <br> Youtube kanalu</h3>
+        <a href="{{ page.service_first_link }}" target="_blank">
+          <div 
+            class="interactable"
+            data-type="youtube"
+            style="background-image: url({{page.service_first}})"
+          >
+          </div>
+        </a>
+      </div>
+  
+      <div class="mb-16 md:mb-0">
+        <h3 class="mb-6 md:mb-10">Pratite nas na <br> Spotify-ju</h3>
+        <a href="{{ page.service_second_link }}" target="_blank">
+          <div 
+            class="interactable"
+            data-type="spotify"
+            style="background-image: url('{{ page.service_second }}')"
+          >
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
 
-  {% include last_episodes.html %}
+  <!-- {% include last_episodes.html %} -->
+
+  {% include shop_form.html %}
 
 </main>
 

@@ -94,7 +94,7 @@ import SmoothScroll from './smoothScroll.js'
     const interactable = e.target.closest('.interactable'),
           interacting = interactable !== null
 
-    if(e.target.closest('a') || e.target.closest('.iframe-container')) {
+    if(e.target.closest('a') || e.target.closest('.iframe-container') || e.target.closest('button')) {
       trailer.classList.add('hide')
     } else {
       trailer.classList.remove('hide')
@@ -179,11 +179,14 @@ import SmoothScroll from './smoothScroll.js'
 
   
 
+
+  
+
   // document.body.addEventListener('onload', init())
 
-  window.onload = () => {
-    window.scrollTo(0, 0);
-  }
+  // window.onload = () => {
+  //   window.scrollTo(0, 0);
+  // }
 
   
 })()

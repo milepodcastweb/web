@@ -1,24 +1,23 @@
 ---
-#
-# By default, content added below the "---" mark will appear in the home page
-# between the top bar and the list of recent posts.
-# To change the home page layout, edit the _layouts/home.html file.
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: index
 site_name: Jao Mile
 author_name: Mile Ilić
-cta_image: /assets/img/about-cover.jpeg
-services_left: /assets/img/youtube-service.webp
+cta_image: /assets/img/image00002.jpeg
+hero_image: "/assets/img/image00001.jpeg"
+hero_text: Bivši kosarkaš i reprezentativac Srbije (SCG). Košarkom se profesionalno bavio 18 godina i za to vreme nastupao za FMP, Crvenu zvezdu, NJ Nets (NBA) i mnoge druge klubove u Evropi i na Bliskom istoku.
+spinning_logo: '/assets/img/logo_white_letter.png'
+about_text: Podkast Jao Mile je osmišljen i koncipiran u vidu autorske emisije koja se bavi pitanjima profesionalne košarkaške karijere iz ugla afirmisanih košarkaša, trenera, sportskih agenata.
 
-episodes: 
-  - title: Profesor Vladimir Koprivica
-    description: Epizoda 52
-    image: /assets/img/episodes/52.jpg
-  - title: Aleksandar Ćapin
-    description: Epizoda 51
-    image: /assets/img/episodes/51.jpg
-  - title: 'Nenad Krstić: Iz Kraljeva do NBA lige za tri godine!'
-    description: Epizoda 50
-    image: /assets/img/episodes/50.jpg
+
+  Teme koje analiziraju početke, uzore, prvu opremu, impresije, zatim izazove profesionalne karijere, ali se bavi i pitanjima vezanim za život posle karijere sa kojima se profesionalni sportista susreće. 
+
+  
+  Podkast Jao Mile je značajan za promociju i razvoj sporta u regionu i predstavlja koristan i sveobuhvatan prikaz zdravog načina života koji se prikazuje široj društvenoj zajednici.
+
+service_first: /assets/img/youtube-service.webp
+service_first_link: 'https://www.youtube.com/@JaoMilepodcast'
+service_second: 'https://picsum.photos/700/700'
+service_second_link: 'https://open.spotify.com/show/0vrmrrkOEvjhUMTUeQl6Xx'
+mug_image: '/assets/img/Jao Mile solja.png'
+
 ---

@@ -44,14 +44,12 @@
       <li class="nav-item" data-value="O podkastu" data-scroll-element="about">
           O podkastu
       </li>
-      <li class="nav-item" data-value="Poslednje epizode" data-scroll-element="services">
-          Poslednje epizode
+      <li class="nav-item" data-value="epizode" data-scroll-element="services">
+          epizode
       </li>
-      <!-- <li class="nav-item" >
-        <a href="#" data-value="Prodavnica" data-scroll-element="#">
+      <li class="nav-item" data-value="Prodavnica" data-scroll-element="shop">
           Prodavnica
-        </a>
-      </li> -->
+      </li>
     </ul>
   </nav>
   <div class="socials hidden md:flex items-center justify-center">
@@ -109,20 +107,18 @@
       </div>
     </div>
     <ul class="flex-col items-center justify-center mt-24">
-      <li class="nav-item" data-value="Početak" data-scroll-element="index">
+      <li class="nav-item" data-value="Početak" data-scroll-element="header">
         Početak
       </li>
       <li class="nav-item" data-value="O podkastu" data-scroll-element="about">
           O podkastu
       </li>
-      <li class="nav-item" data-value="Poslednje epizode" data-scroll-element="services">
-          Poslednje epizode
+      <li class="nav-item" data-value="epizode" data-scroll-element="services">
+          epizode
       </li>
-      <!-- <li class="nav-item" >
-        <a href="#" data-value="Prodavnica" data-scroll-element="#">
+      <li class="nav-item" data-value="Prodavnica" data-scroll-element="shop">
           Prodavnica
-        </a>
-      </li> -->
+      </li>
     </ul>
   </nav>
 
@@ -165,104 +161,139 @@
 
 <main>
   <section id="hero" class="container mx-auto mb-10 md:mb-40 md:pt-16">
-  <div class="w-full flex flex-col-reverse md:gap-x-12 md:flex-row items-center justify-center">
-    <div class="w-full md:w-auto p-6 md:-mt-16">
-      <h1 class="hero-author mb-8 md:mb-10">Mile Ilić</h1>
-      <div class="hero-text">
-        Bivši kosarkaš i reprezentativac Srbije (SCG). Košarkom se profesionalno bavio 18 godina i za to vreme nastupao za FMP, Crvenu zvezdu, NJ Nets (NBA) i mnoge druge klubove u Evropi i na Bliskom istoku.
+    <div class="w-full flex flex-col-reverse md:gap-x-12 md:flex-row items-center justify-center">
+      <div class="w-full md:w-auto p-6 md:-mt-16">
+        <h1 class="hero-author mb-8 md:mb-10">Mile Ilić</h1>
+        <div class="hero-text">
+          Bivši kosarkaš i reprezentativac Srbije (SCG). Košarkom se profesionalno bavio 18 godina i za to vreme nastupao za FMP, Crvenu zvezdu, NJ Nets (NBA) i mnoge druge klubove u Evropi i na Bliskom istoku.
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="/assets/img/image00001.jpeg" alt="Mile Ilić">
       </div>
     </div>
-    <div class="hero-image">
-      <img src="/assets/img/Mile-Ilic-hero.jpg" alt="Mile Ilic">
-    </div>
-  </div>
-</section>
+  </section>
 
   <div class="md:mt-32 cta-container">
-    <div class="cta-image" style="background-image: url(/assets/img/about-cover.jpeg);"></div>
+    <div class="cta-image" style="background-image: url('/assets/img/image00002.jpeg');"></div>
   </div>
 
   <section id="about" class="py-8 md:py-20 relative">
-  <div class="container mx-auto relative flex flex-col items-center justify-center py-16 text-white z-10">
-    <div class="about-logo mb-16">
-      <img src="/assets/img/logo_white_letter.png" alt="Mile Ilic Jao Mile">
+    <div class="container mx-auto relative flex flex-col items-center justify-center py-16 text-white z-10">
+      <div class="about-logo mb-16">
+        <img src="/assets/img/logo_white_letter.png" alt="Mile Ilić logo">
+      </div>
+      <div class="about-text">
+        <p>Podkast Jao Mile je osmišljen i koncipiran u vidu autorske emisije koja se bavi pitanjima profesionalne košarkaške karijere iz ugla afirmisanih košarkaša, trenera, sportskih agenata.</p>
+
+<p>Teme koje analiziraju početke, uzore, prvu opremu, impresije, zatim izazove profesionalne karijere, ali se bavi i pitanjima vezanim za život posle karijere sa kojima se profesionalni sportista susreće.</p>
+
+<p>Podkast Jao Mile je značajan za promociju i razvoj sporta u regionu i predstavlja koristan i sveobuhvatan prikaz zdravog načina života koji se prikazuje široj društvenoj zajednici.</p>
+
+      </div>
     </div>
-    <div class="about-text">
-      <p>
-        Podkast Jao Mile je osmišljen i koncipiran u vidu autorske emisije koja se bavi pitanjima profesionalne košarkaške karijere iz ugla afirmisanih košarkaša, trenera, sportskih agenata.
-      </p>
-      <p>
-        Teme koje analiziraju početke, uzore, prvu opremu, impresije, zatim izazove profesionalne karijere, ali se bavi i pitanjima vezanim za život posle karijere sa kojima se profesionalni sportista susreće. 
-      </p>
-      <p>
-        Podkast Jao Mile je značajan za promociju i razvoj sporta u regionu i predstavlja koristan i sveobuhvatan prikaz zdravog načina života koji se prikazuje široj društvenoj zajednici.
-      </p>
-    </div>
-  </div>
-</section>
+  </section>
 
   <section id="services" class="pt-20 md:pt-32">
-  <div class="services-box">
-    <div class="mb-16 md:mb-0">
-      <h3 class="mb-6 md:mb-10">Pretplatite se na <br> Youtube kanalu</h3>
-      <a href="https://www.youtube.com/@JaoMilepodcast" target="_blank">
-        <div 
-          class="interactable"
-          data-type="youtube"
-          style="background-image: url(/assets/img/youtube-service.webp)"
-        >
-        </div>
-      </a>
+    <div class="services-box">
+      <div class="mb-16 md:mb-0">
+        <h3 class="mb-6 md:mb-10">Pretplatite se na <br> Youtube kanalu</h3>
+        <a href="https://www.youtube.com/@JaoMilepodcast" target="_blank">
+          <div 
+            class="interactable"
+            data-type="youtube"
+            style="background-image: url(/assets/img/youtube-service.webp)"
+          >
+          </div>
+        </a>
+      </div>
+  
+      <div class="mb-16 md:mb-0">
+        <h3 class="mb-6 md:mb-10">Pratite nas na <br> Spotify-ju</h3>
+        <a href="https://open.spotify.com/show/0vrmrrkOEvjhUMTUeQl6Xx" target="_blank">
+          <div 
+            class="interactable"
+            data-type="spotify"
+            style="background-image: url('https://picsum.photos/700/700')"
+          >
+          </div>
+        </a>
+      </div>
     </div>
+  </section>
 
-    <div class="mb-16 md:mb-0">
-      <h3 class="mb-6 md:mb-10">Pratite nas na <br> Spotify-ju</h3>
-      <a href="https://open.spotify.com/show/0vrmrrkOEvjhUMTUeQl6Xx" target="_blank">
-        <div 
-          class="interactable"
-          data-type="spotify"
-          style="background-image: url('https://picsum.photos/700/700')"
-        >
-        </div>
-      </a>
-    </div>
-    
-  </div>
-
-</section>
-
-  <div id="lastEpisodes" class="relative">
+  <!-- <div id="lastEpisodes" class="relative">
   <section class="horizontal">
     <div class="pin-wrap">
       <div class="animation-wrap to-right">
         <div class="item">
           <div class="iframe-container">
-            <iframe src="https://www.youtube.com/embed/Rit2O_fTRV8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+            <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUtcmRUuJVYYbyfi__I_JBnA"></iframe>
+          </div>
+        </div>
+        <div class="item">
+          <div class="">
+            <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUtcmRUuJVYYbyfi__I_JBnA&index=2"></iframe>
           </div>
         </div>
         <div class="item">
           <div class="iframe-container">
-            <iframe src="https://www.youtube.com/embed/BFs5IAfaIUE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+            <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUtcmRUuJVYYbyfi__I_JBnA&index=3"></iframe>
           </div>
         </div>
         <div class="item">
           <div class="iframe-container">
-            <iframe src="https://www.youtube.com/embed/Qr3s7CGpxYQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+            <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUtcmRUuJVYYbyfi__I_JBnA&index=4"></iframe>
           </div>
         </div>
         <div class="item">
           <div class="iframe-container">
-            <iframe src="https://www.youtube.com/embed/qLY_Sy49s6U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
-          </div>
-        </div>
-        <div class="item">
-          <div class="iframe-container">
-            <iframe src="https://www.youtube.com/embed/FAVpHpaXcKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+            <iframe src="https://www.youtube.com/embed?listType=playlist&list=UUtcmRUuJVYYbyfi__I_JBnA&index=5"></iframe>
           </div>
         </div>
       </div>
     </div>
   </section>
+</div> -->
+
+  <div id="shop" class="container mx-auto pt-40 pb-20 md:py-40">
+  <h2 class="section-title mb-8 md:mb-20">Podržite rad kupovinom šolje</h2>
+  <div class="flex flex-col md:flex-row items-center justify-evenly">
+    <div class="mugs w-full md:w-1/2">
+      <img src="/assets/img/Jao Mile solja.png" alt="solja">
+    </div>
+    <div class="form-container">
+      <form class="mt-6" method="POST" action="https://formsubmit.co/vladimir96ks@gmail.com">
+        <div class="my-4">
+          <div class="form-label md:block text-white">Ime i prezime:</div>
+          <input type="text" id="fullname" name="Name" placeholder="Puno ime i prezime" class="input" required />
+        </div>
+        <div class="my-4">
+          <div class="form-label md:block text-white">Telefon:</div>
+          <input type="text" id="phone" name="Phone" placeholder="+38xxx/xxx-xx-xx" class="input" required />
+        </div>
+        <div class="my-4">
+          <div class="form-label md:block text-white">Email:</div>
+          <input type="text" id="email" name="Email" placeholder="email" class="input" required />
+        </div>
+        <div class="my-4">
+          <div class="form-label md:block text-white">Dodatni tekst:</div>
+          <textarea id="w3review" name="w3review" rows="4" cols="50"> </textarea>
+        </div>
+        <input type="hidden" name="_subject" value="Porucivanje šolje preko sajta!">
+        <input type="hidden" name="_next" value="https://jao-mile.vercel.app//">
+        <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_autoresponse" value="Hvala na porudzbini!">
+        <div class="md:w-1/2 mx-auto">
+          <button type="submit" class="form-button w-full py-3 mx-auto">Pošalji</button>
+        </div>
+      </form>
+      <div class="newsletterPopupAdditionalText text-center mt-6">
+        <div>* Narudzbine saljemo poštom, placanje pouzećem. </div>
+        <div>** Pošiljke šaljemo unutar Srbije, i u Bosnu i Hercegovinu. </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 </main>
