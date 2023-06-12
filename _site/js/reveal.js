@@ -6,55 +6,10 @@ if (document.querySelector('.reveal')) {
     easing: 'cubic-bezier(.17,1.05,.88,1)'
   });
 }
-if (document.querySelector('.reveal-delay-200')) {
-  ScrollReveal().reveal('.reveal-delay-200', {
-    delay: 200,
-    distance: '120px',
-    duration: 1300,
-    origin: 'bottom',
-    easing: 'ease-in-out'
-  });
-}
-if (document.querySelector('.reveal-delay-300')) {
-  ScrollReveal().reveal('.reveal-delay-300', {
-    delay: 300,
-    distance: '120px',
-    duration: 1300,
-    origin: 'bottom',
-    easing: 'ease-in-out'
-  });
-}
-if (document.querySelector('.reveal-delay-400')) {
-  ScrollReveal().reveal('.reveal-delay-400', {
-    delay: 400,
-    distance: '120px',
-    duration: 1300,
-    origin: 'bottom',
-    easing: 'ease-in-out'
-  });
-}
-if (document.querySelector('.reveal-delay-500')) {
-  ScrollReveal().reveal('.reveal-delay-500', {
-    delay: 500,
-    distance: '120px',
-    duration: 1300,
-    origin: 'bottom',
-    easing: 'ease-in-out'
-  });
-}
-if (document.querySelector('.reveal-delay-600')) {
-  ScrollReveal().reveal('.reveal-delay-600', {
+if (document.querySelector('.reveal-delay-1s')) {
+  ScrollReveal().reveal('.reveal-delay-1s', {
     delay: 600,
-    distance: '120px',
-    duration: 1300,
-    origin: 'bottom',
-    easing: 'ease-in-out'
-  });
-}
-if (document.querySelector('.reveal-delay-700')) {
-  ScrollReveal().reveal('.reveal-delay-700', {
-    delay: 700,
-    distance: '120px',
+    distance: '150px',
     duration: 1300,
     origin: 'bottom',
     easing: 'ease-in-out'
@@ -77,6 +32,16 @@ if (document.querySelector('.reveal-right')) {
     opacity: 0,
     delay: 150,
     duration: 1100,
+    easing: 'ease-in-out'
+  })
+}
+if (document.querySelector('.reveal-right-delay-1s')) {
+  ScrollReveal().reveal('.reveal-right-delay-1s', {
+    distance: '150px',
+    origin: 'right',
+    opacity: 0,
+    delay: 600,
+    duration: 1300,
     easing: 'ease-in-out'
   })
 }

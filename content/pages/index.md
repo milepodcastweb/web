@@ -18,7 +18,7 @@ about_text: Podkast Jao Mile je osmišljen i koncipiran u vidu autorske emisije 
 
 service_first: /assets/img/youtube-service.webp
 service_first_link: 'https://www.youtube.com/@JaoMilepodcast'
-service_second: 'https://picsum.photos/700/700'
+service_second: '/assets/img/youtube-service.webp'
 service_second_link: 'https://open.spotify.com/show/0vrmrrkOEvjhUMTUeQl6Xx'
 shop_title: Podržite rad kupovinom šolje
 mug_image: '/assets/img/Jao Mile solja.png'

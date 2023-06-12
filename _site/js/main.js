@@ -7,6 +7,14 @@ import SmoothScroll from './smoothScroll.js'
   const queryString = window.location.search
   const urlParams = new URLSearchParams(queryString)
 
+  let downButton = document.getElementById('Chevrons')
+
+  if(downButton){
+    downButton.addEventListener('click', () => {
+      window.scrollTo(0, window.innerHeight - 100)
+    })
+  }
+
   function init() {
     new SmoothScroll({ target: document, speed: 40, smooth: 16 })
   }
@@ -175,8 +183,21 @@ import SmoothScroll from './smoothScroll.js'
       }
     }
   }
+  else {
+    const coverImage = document.querySelector('.hero-image-container')
+    let lastScroll = 0
 
+    window.onscroll = (e) => {
+      let transformValue = coverImage.dataset.transformValue
+      let currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
 
+      if(window.scrollY < window.innerHeight){
+        transformValue += currentScroll / 8
+        coverImage.style.transform = `translateY(${transformValue}px)`
+        lastScroll = currentScroll
+      }
+    }
+  }
   
 
 
