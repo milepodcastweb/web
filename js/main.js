@@ -184,9 +184,9 @@ import SmoothScroll from './smoothScroll.js'
 
   // document.body.addEventListener('onload', init())
 
-  // window.onload = () => {
-  //   window.scrollTo(0, 0);
-  // }
+  window.onload = () => {
+    window.scrollTo(0, 0);
+  }
 
   
 })()
