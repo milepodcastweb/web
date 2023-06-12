@@ -1,7 +1,9 @@
 ---
 layout: index
+permalink: //
 site_name: Jao Mile
 author_name: Mile Ilić
+meta_description: 'Podkast Jao Mile je osmišljen i koncipiran u vidu autorske emisije koja se bavi pitanjima profesionalne košarkaške karijere iz ugla afirmisanih košarkaša, trenera, sportskih agenata.'
 cta_image: /assets/img/image00002.jpeg
 hero_image: "/assets/img/image00001.jpeg"
 hero_text: Bivši kosarkaš i reprezentativac Srbije (SCG). Košarkom se profesionalno bavio 18 godina i za to vreme nastupao za FMP, Crvenu zvezdu, NJ Nets (NBA) i mnoge druge klubove u Evropi i na Bliskom istoku.
@@ -19,5 +21,6 @@ service_first_link: 'https://www.youtube.com/@JaoMilepodcast'
 service_second: 'https://picsum.photos/700/700'
 service_second_link: 'https://open.spotify.com/show/0vrmrrkOEvjhUMTUeQl6Xx'
 mug_image: '/assets/img/Jao Mile solja.png'
-
+first_disclaimer: Narudzbine saljemo poštom, placanje pouzećem.
+second_disclaimer: Pošiljke šaljemo unutar Srbije, i u Bosnu i Hercegovinu.
 ---

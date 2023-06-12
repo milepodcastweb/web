@@ -94,7 +94,7 @@ import SmoothScroll from './smoothScroll.js'
     const interactable = e.target.closest('.interactable'),
           interacting = interactable !== null
 
-    if(e.target.closest('a') || e.target.closest('.iframe-container') || e.target.closest('button')) {
+    if(e.target.closest('a') || e.target.closest('.iframe-container') || e.target.closest('button') || e.target.closest('button') || e.target.closest('textarea')) {
       trailer.classList.add('hide')
     } else {
       trailer.classList.remove('hide')
