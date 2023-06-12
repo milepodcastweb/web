@@ -20,6 +20,7 @@ service_first: /assets/img/youtube-service.webp
 service_first_link: 'https://www.youtube.com/@JaoMilepodcast'
 service_second: 'https://picsum.photos/700/700'
 service_second_link: 'https://open.spotify.com/show/0vrmrrkOEvjhUMTUeQl6Xx'
+shop_title: Podržite rad kupovinom šolje
 mug_image: '/assets/img/Jao Mile solja.png'
 first_disclaimer: Narudzbine saljemo poštom, placanje pouzećem.
 second_disclaimer: Pošiljke šaljemo unutar Srbije, i u Bosnu i Hercegovinu.

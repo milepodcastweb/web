@@ -103,6 +103,11 @@ export default defineConfig({
             label: "Link do Spotify-a",
           },
           {
+            type: "string",
+            name: "shop_title",
+            label: "Naslov iznad forme",
+          },
+          {
             type: "image",
             name: "mug_image",
             label: "Slika šolje",
