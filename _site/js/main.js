@@ -102,7 +102,7 @@ import SmoothScroll from './smoothScroll.js'
     const interactable = e.target.closest('.interactable'),
           interacting = interactable !== null
 
-    if(e.target.closest('a') || e.target.closest('.iframe-container') || e.target.closest('button') || e.target.closest('button') || e.target.closest('textarea')) {
+    if(e.target.closest('a') || e.target.closest('.iframe-container') || e.target.closest('button') || e.target.closest('button') || e.target.closest('textarea') || e.target.closest('#hero') || e.target.closest('#services')) {
       trailer.classList.add('hide')
     } else {
       trailer.classList.remove('hide')
@@ -184,10 +184,18 @@ import SmoothScroll from './smoothScroll.js'
     }
   }
   else {
+    const header = document.getElementById('header')
+
     const coverImage = document.querySelector('.hero-image-container')
     let lastScroll = 0
 
     window.onscroll = (e) => {
+      if(window.scrollY > 100){
+        header.classList.add('active')
+      }
+      else {
+        header.classList.remove('active')
+      }
       let transformValue = coverImage.dataset.transformValue
       let currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
 
