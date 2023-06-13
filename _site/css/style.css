@@ -576,7 +576,7 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
   }
   #services .service-text p, #services .service-text p span {
     font-size: 16px;

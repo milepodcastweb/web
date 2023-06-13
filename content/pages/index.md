@@ -29,7 +29,7 @@ about_text: >
   predstavlja koristan i sveobuhvatan prikaz zdravog načina života koji se
   prikazuje široj društvenoj zajednici.
 podcast_cta_image: /assets/img/channels4_banner.jpg
-podcast_cta_image_mobile: /assets/img/317518819_446756164323703_7776277737469356427_n.jpeg
+podcast_cta_image_mobile: /assets/img/channels4_banner.jpg
 podcast_cta_link: 'https://www.youtube.com/@JaoMilepodcast'
 podcast_cta_button: Gledaj sad
 podcast_cta_text: >
@@ -48,6 +48,7 @@ mug_image: /assets/img/Jao Mile solja.png
 first_disclaimer: 'Narudzbine saljemo poštom, placanje pouzećem.'
 second_disclaimer: 'Pošiljke šaljemo unutar Srbije, i u Bosnu i Hercegovinu.'
 ---
+
 
 
 
