@@ -17,6 +17,25 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <style>
+    .cta-image {
+      background-image: url('');
+    }
+    #services {
+      background-image: url('');
+    } 
+    @media (max-width: 500px) {
+      .cta-image {
+        background-image: none;
+      }
+      .cta-image:before {
+        background-image: url('');
+      }
+      #services {
+      background-image: url('');
+    } 
+    }
+  </style>
 </head>
 
 <body id="index">
@@ -160,6 +179,7 @@
 </div>
 
 
+
 <main>
   <section id="hero" class="container mx-auto mb-10 md:mb-40 md:pt-16">
     <div class="w-full flex flex-col-reverse md:gap-x-12 md:flex-row items-center justify-center">
@@ -197,8 +217,8 @@
     </div>
   </section>
 
-  <div class="md:mt-32 cta-container">
-    <div class="cta-image" style="background-image: url('');"></div>
+  <div class="md:mt-32 cta-container relative">
+    <div class="cta-image"></div>
   </div>
 
   <section id="about" class="py-8 md:py-20 relative">
@@ -213,29 +233,16 @@
     </div>
   </section>
 
-  <section id="services" class="pt-20 md:pt-32">
-    <div class="services-box reveal">
-      <div class="mb-16 md:mb-0">
-        <h3 class="mb-6 md:mb-10">Pretplatite se na <br> Youtube kanalu</h3>
-        <a href="" target="_blank">
-          <div 
-            class="interactable"
-            data-type="youtube"
-            style="background-image: url()"
-          >
-          </div>
-        </a>
-      </div>
-  
-      <div class="mb-16 md:mb-0 reveal">
-        <h3 class="mb-6 md:mb-10">Pratite nas na <br> Spotify-ju</h3>
-        <a href="" target="_blank">
-          <div 
-            class="interactable"
-            data-type="spotify"
-            style="background-image: url('')"
-          >
-          </div>
+  <section id="services" class="mt-20 md:mt-32 relative flex flex-col items-center justify-center">
+    <div class="overlay"></div>
+    <div class="container mx-auto">
+      <div class="flex flex-col items-center justify-center">
+        <div class="service-text reveal">
+          
+
+        </div>
+        <a href="" class="service-btn relative mt-10 md:mt-16 reveal">
+          
         </a>
       </div>
     </div>

@@ -5,6 +5,7 @@
 {% include mobile-nav.html%}
 
 
+
 <main>
   <section id="hero" class="container mx-auto mb-10 md:mb-40 md:pt-16">
     <div class="w-full flex flex-col-reverse md:gap-x-12 md:flex-row items-center justify-center">
@@ -42,8 +43,8 @@
     </div>
   </section>
 
-  <div class="md:mt-32 cta-container">
-    <div class="cta-image" style="background-image: url('{{ page.cta_image }}');"></div>
+  <div class="md:mt-32 cta-container relative">
+    <div class="cta-image"></div>
   </div>
 
   <section id="about" class="py-8 md:py-20 relative">
@@ -57,29 +58,15 @@
     </div>
   </section>
 
-  <section id="services" class="pt-20 md:pt-32">
-    <div class="services-box reveal">
-      <div class="mb-16 md:mb-0">
-        <h3 class="mb-6 md:mb-10">Pretplatite se na <br> Youtube kanalu</h3>
-        <a href="{{ page.service_first_link }}" target="_blank">
-          <div 
-            class="interactable"
-            data-type="youtube"
-            style="background-image: url({{page.service_first}})"
-          >
-          </div>
-        </a>
-      </div>
-  
-      <div class="mb-16 md:mb-0 reveal">
-        <h3 class="mb-6 md:mb-10">Pratite nas na <br> Spotify-ju</h3>
-        <a href="{{ page.service_second_link }}" target="_blank">
-          <div 
-            class="interactable"
-            data-type="spotify"
-            style="background-image: url('{{ page.service_second }}')"
-          >
-          </div>
+  <section id="services" class="mt-20 md:mt-32 relative flex flex-col items-center justify-center">
+    <div class="overlay"></div>
+    <div class="container mx-auto">
+      <div class="flex flex-col items-center justify-center">
+        <div class="service-text reveal">
+          {{ page.podcast_cta_text | markdownify }}
+        </div>
+        <a href="{{page.podcast_cta_link}}" class="service-btn relative mt-10 md:mt-16 reveal">
+          {{ page.podcast_cta_button}}
         </a>
       </div>
     </div>

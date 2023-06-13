@@ -84,23 +84,28 @@ export default defineConfig({
           },
           {
             type: "image",
-            name: "service_first",
-            label: "Youtube slika",
-          },
-          {
-            type: "string",
-            name: "service_first_link",
-            label: "Link do Youtube-a",
-          },
+            name: "podcast_cta_image",
+            label: "Pozadinska slika",
+          },  
           {
             type: "image",
-            name: "service_second",
-            label: "Spotify slika",
+            name: "podcast_cta_image_mobile",
+            label: "Pozadinska slika mobilni",
+          },  
+          {
+            type: 'rich-text',
+            name: 'podcast_cta_text',
+            label: 'Tekst'
           },
           {
             type: "string",
-            name: "service_second_link",
-            label: "Link do Spotify-a",
+            name: "podcast_cta_link",
+            label: "Link do podcasta",
+          },
+          {
+            type: "string",
+            name: "podcast_cta_button",
+            label: "Tekst Dugmeta",
           },
           {
             type: "string",
