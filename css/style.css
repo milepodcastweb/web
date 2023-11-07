@@ -441,8 +441,11 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
   align-items: flex-end;
 } */
 
-.mugs {
+.product {
   width: 500px;
+}
+.product img {
+  max-height: 650px;
 }
 .form-container {
   width: 600px;
@@ -705,7 +708,7 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
     color: var(--darkBlue);
     border: 4px solid var(--lightBlue);
   }
-  .mugs {
+  .product {
     width: 80%;
   }
   #shop .section-title {

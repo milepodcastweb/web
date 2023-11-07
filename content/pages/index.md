@@ -33,21 +33,16 @@ podcast_cta_image_mobile: /assets/img/channels4_banner.jpg
 podcast_cta_link: 'https://www.youtube.com/@JaoMilepodcast'
 podcast_cta_button: Gledaj sad
 podcast_cta_text: >
-  Ovde ide neki tekst lorem Lorem ipsum dolor sit amet consectetur, adipisicing
-  elit. Non iusto eius laborum, quibusdam atque voluptate, adipisci dolores
-  exercitationem animi quisquam totam praesentium modi asperiores aspernatur
-  reprehenderit vitae qui voluptates a?
-
-
-  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non iusto eius
-  laborum, quibusdam atque voluptate, adipisci dolores exercitationem animi
-  quisquam totam praesentium modi asperiores aspernatur reprehenderit vitae qui
-  voluptates a?
-shop_title: Podržite rad kupovinom šolje
-mug_image: /assets/img/Jao Mile solja.png
+  Sve razgovore možete pronaći na našem YouTube kanalu uz preporuku nas
+  zapratite na istom.
+shop_title: Podržite rad kupovinom knjige
+shop_item_image: /assets/img/Crno na belo.jpeg
 first_disclaimer: 'Narudzbine saljemo poštom, placanje pouzećem.'
 second_disclaimer: 'Pošiljke šaljemo unutar Srbije, i u Bosnu i Hercegovinu.'
 ---
+
+
+
 
 
 

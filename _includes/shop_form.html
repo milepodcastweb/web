@@ -1,8 +1,8 @@
 <div id="shop" class="container mx-auto pt-40 pb-20 md:py-40">
   <h2 class="section-title mb-8 md:mb-20">{{ page.shop_title }}</h2>
   <div class="flex flex-col md:flex-row items-center justify-evenly">
-    <div class="mugs w-full md:w-1/2">
-      <img src="{{page.mug_image}}" alt="solja">
+    <div class="product w-full md:w-1/2">
+      <img src="{{page.shop_item_image}}" alt="proizvod">
     </div>
     <div class="form-container">
       <form class="mt-6" method="POST" action="https://formsubmit.co/office@jaomile.com">
@@ -16,7 +16,7 @@
         </div>
         <div class="my-4 reveal">
           <div class="form-label md:block text-white">Email:</div>
-          <input type="text" id="email" name="Email" placeholder="email" class="input" required />
+          <input type="text" id="email" name="Email" placeholder="email@gmail.com" class="input" required />
         </div>
         <div class="my-4 reveal">
           <div class="form-label md:block text-white">Dodatni tekst:</div>

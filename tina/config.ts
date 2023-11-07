@@ -114,8 +114,8 @@ export default defineConfig({
           },
           {
             type: "image",
-            name: "mug_image",
-            label: "Slika šolje",
+            name: "shop_item_image",
+            label: "Slika proizvoda",
           },
           {
             type: "string",
