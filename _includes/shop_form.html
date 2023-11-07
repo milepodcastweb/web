@@ -2,7 +2,7 @@
   <h2 class="section-title mb-8 md:mb-20">{{ page.shop_title }}</h2>
   <div class="flex flex-col md:flex-row items-center justify-evenly">
     <div class="product w-full md:w-1/2">
-      <img src="{{page.shop_item_image}}" alt="proizvod">
+      <img id="product-image" src="{{page.default_shop_image}}" alt="proizvod">
     </div>
     <div class="form-container">
       <form class="mt-6" method="POST" action="https://formsubmit.co/office@jaomile.com">
@@ -16,7 +16,22 @@
         </div>
         <div class="my-4 reveal">
           <div class="form-label md:block text-white">Email:</div>
-          <input type="text" id="email" name="Email" placeholder="email@gmail.com" class="input" required />
+          <input type="email" id="email" name="Email" placeholder="email@gmail.com" class="input" required />
+        </div>
+        <div class="my-4 reveal">
+          <div class="form-label md:block text-white">Adresa:</div>
+          <input type="text" id="address" name="Adresa" placeholder="Puna adresa" class="input" required />
+        </div>
+        <div class="my-4 reveal">
+          <div class="form-label md:block text-white">Izaberite proizvod:</div>
+          <div class="mt-2 mb-6">
+            {% for product in page.products %}
+              <label for="product-{{ forloop.index }}" class="product-label flex items-center">
+                <input type="radio" id="product-{{ forloop.index }}" name="Proizvod" value="{{ product.price }}" data-image="{{ product.image }}">
+                {{ product.title }} - ({{ product.price }} RSD)
+              </label>
+            {% endfor %}
+          </div>
         </div>
         <div class="my-4 reveal">
           <div class="form-label md:block text-white">Dodatni tekst:</div>
@@ -25,7 +40,7 @@
         <input type="hidden" name="_subject" value="Porucivanje šolje preko sajta!">
         <input type="hidden" name="_next" value="https://jao-mile.vercel.app//">
         <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_autoresponse" value="Hvala na porudzbini!">
+        <input type="hidden" name="_autoresponse" value="Hvala na porudzbini!">
         <div class="md:w-1/2 mx-auto reveal">
           <button type="submit" class="form-button w-full py-3 mx-auto">Pošalji</button>
         </div>

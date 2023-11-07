@@ -2,7 +2,7 @@
 layout: index
 permalink: //
 site_name: Jao Mile
-author_name: Mile Ilić
+main_title: Mile Ilić
 meta_description: >-
   Podkast Jao Mile je osmišljen i koncipiran u vidu autorske emisije koja se
   bavi pitanjima profesionalne košarkaške karijere iz ugla afirmisanih
@@ -33,13 +33,23 @@ podcast_cta_image_mobile: /assets/img/channels4_banner.jpg
 podcast_cta_link: 'https://www.youtube.com/@JaoMilepodcast'
 podcast_cta_button: Gledaj sad
 podcast_cta_text: >
-  Sve razgovore možete pronaći na našem YouTube kanalu uz preporuku nas
+  Sve razgovore možete pronaći na našem YouTube kanalu uz preporuku da nas
   zapratite na istom.
 shop_title: Podržite rad kupovinom knjige
-shop_item_image: /assets/img/Crno na belo.jpeg
+default_shop_image: /assets/img/Jao Mile solja.png
 first_disclaimer: 'Narudzbine saljemo poštom, placanje pouzećem.'
 second_disclaimer: 'Pošiljke šaljemo unutar Srbije, i u Bosnu i Hercegovinu.'
+products:
+  - title: Šolja 'Jao Mile'
+    image: /assets/img/Jao Mile solja.png
+    price: 1100
+  - title: Knjiga 'Crno na Belo'
+    image: /assets/img/Crno na belo.jpeg
+    price: 1200
 ---
+
+
+
 
 
 

@@ -454,12 +454,22 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
   font-size: 20px;
   font-family: var(--SorceCodePro);
 }
-.form-container input {
+.form-container input,
+.form-container select {
   width: 100%;
   padding: 8px 12px;
   font-size: 18px;
   color: var(--black);
   outline: none;
+}
+.form-container input[type="radio"] {
+  width: 30px;
+}
+.form-container .product-label {
+  font-size: 18px;
+  line-height: 26px;
+  padding: 4px 0;
+  font-family: var(--SorceCodePro);
 }
 .form-container textarea {
   resize: none;
