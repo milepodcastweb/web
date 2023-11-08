@@ -35,7 +35,7 @@ podcast_cta_button: Gledaj sad
 podcast_cta_text: >
   Sve razgovore možete pronaći na našem YouTube kanalu uz preporuku da nas
   zapratite na istom.
-shop_title: Podržite rad kupovinom knjige
+shop_title: Podržite rad kupovinom proizvoda
 default_shop_image: /assets/img/Jao Mile solja.png
 first_disclaimer: 'Narudzbine saljemo poštom, placanje pouzećem.'
 second_disclaimer: 'Pošiljke šaljemo unutar Srbije, i u Bosnu i Hercegovinu.'

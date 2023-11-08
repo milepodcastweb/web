@@ -1,10 +1,15 @@
 <div id="shop" class="container mx-auto pt-40 pb-20 md:py-40">
   <h2 class="section-title mb-8 md:mb-20">{{ page.shop_title }}</h2>
-  <div class="flex flex-col md:flex-row items-center justify-evenly">
-    <div class="product w-full md:w-1/2">
-      <img id="product-image" src="{{page.default_shop_image}}" alt="proizvod">
+  <div class="flex flex-col items-center justify-evenly">
+    <div class="flex items-center justify-evenly w-full mb-12">
+      {% for product in page.products %}
+        <div class="product-image-wrapper flex items-center justify-center">
+            <img class="product-image" src="{{product.image}}" alt="{{ product.title }}">
+        </div>
+      {% endfor %}
     </div>
-    <div class="form-container">
+
+    <div class="form-container mx-auto">
       <form class="mt-6" method="POST" action="https://formsubmit.co/office@jaomile.com">
         <div class="my-4 reveal">
           <div class="form-label md:block text-white">Ime i prezime:</div>
@@ -27,7 +32,7 @@
           <div class="mt-2 mb-6">
             {% for product in page.products %}
               <label for="product-{{ forloop.index }}" class="product-label flex items-center">
-                <input type="radio" id="product-{{ forloop.index }}" name="Proizvod" value="{{ product.price }}" data-image="{{ product.image }}">
+                <input type="checkbox" id="product-{{ forloop.index }}" name="Proizvod" value="{{ product.price }}" data-image="{{ product.image }}">
                 {{ product.title }} - ({{ product.price }} RSD)
               </label>
             {% endfor %}

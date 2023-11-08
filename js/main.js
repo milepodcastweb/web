@@ -206,20 +206,6 @@ import SmoothScroll from './smoothScroll.js'
       }
     }
   }
-  
-
-  const radioButtons = document.querySelectorAll('input[type="radio"][name="product"]');
-  const productImage = document.getElementById('product-image');
-
-  radioButtons.forEach(function (radioButton) {
-    radioButton.addEventListener('change', function () {
-      // Get the selected radio button's data-image attribute
-      const selectedImage = radioButton.getAttribute('data-image');
-      
-      // Update the image source with the selected image
-      productImage.src = selectedImage;
-    });
-  });
 
   
 

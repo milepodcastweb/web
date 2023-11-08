@@ -444,6 +444,17 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
 .product {
   width: 500px;
 }
+.product-image-wrapper {
+  height: 480px;
+  overflow: hidden;
+}
+.product-image-wrapper img{
+  height: 100%;
+}
+.product-image-wrapper:nth-child(1) {
+  max-width: 500px;
+  height: auto;
+}
 .product img {
   max-height: 650px;
 }
@@ -462,8 +473,10 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
   color: var(--black);
   outline: none;
 }
-.form-container input[type="radio"] {
+.form-container input[type="radio"],
+.form-container input[type="checkbox"] {
   width: 30px;
+  margin-right: 12px;
 }
 .form-container .product-label {
   font-size: 18px;
@@ -753,6 +766,14 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
   
   #BottomChevron {
     animation: bottomChevron 2s infinite;
+  }
+  .product-image-wrapper,
+  .product-image-wrapper:nth-child(1) {
+    max-width: 50%;
+    height: auto;
+  }
+  .form-container .product-label {
+    font-size: 16px;
   }
 
 }
