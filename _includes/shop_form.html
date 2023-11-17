@@ -10,7 +10,7 @@
     </div>
 
     <div class="form-container mx-auto">
-      <form class="mt-6" method="POST" action="https://formsubmit.co/vladimir96ks@gmail.com">
+      <form class="mt-6" method="POST" action="https://formsubmit.co/office@jaomile.com">
         <div class="my-4 reveal">
           <div class="form-label md:block text-white">Ime i prezime:</div>
           <input type="text" id="fullname" name="Ime i prezime" placeholder="Puno ime i prezime" class="input" required />
@@ -32,7 +32,7 @@
           <div class="mt-2 mb-6">
             {% for product in page.products %}
               <label for="product-{{ forloop.index }}" class="product-label flex items-center">
-                <input type="checkbox" id="product-{{ forloop.index }}" name="Proizvod" value="{{ product.price }}" data-image="{{ product.image }}">
+                <input type="checkbox" id="product-{{ forloop.index }}" name="Proizvod" value="{{ product.title }} : {{ product.price }}" data-image="{{ product.image }}">
                 {{ product.title }} - ({{ product.price }} RSD)
               </label>
             {% endfor %}
@@ -43,7 +43,7 @@
           <textarea id="additionaltext" name="Dodatni tekst" rows="4" cols="50"> </textarea>
         </div>
         <input type="hidden" name="_subject" value="Porucivanje šolje preko sajta!">
-        <input type="hidden" name="_next" value="https://web-gamma-gray-68.vercel.app/">
+        <input type="hidden" name="_next" value="https://jaomile.com/">
         <input type="hidden" name="_captcha" value="false">
         <input type="hidden" name="_autoresponse" value="Hvala na porudzbini!">
         <div class="md:w-1/2 mx-auto reveal">
