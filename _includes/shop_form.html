@@ -32,7 +32,7 @@
           <div class="mt-2 mb-6">
             {% for product in page.products %}
               <label for="product-{{ forloop.index }}" class="product-label flex items-center">
-                <input type="checkbox" id="product-{{ forloop.index }}" name="Proizvod" value="{{ product.title }} : {{ product.price }}" data-image="{{ product.image }}">
+                <input type="checkbox" id="product-{{ forloop.index }}" name="Proizvod_{{ forloop.index }}" value="{{ product.title }} : {{ product.price }}" data-image="{{ product.image }}">
                 {{ product.title }} - ({{ product.price }} RSD)
               </label>
             {% endfor %}
