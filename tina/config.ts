@@ -147,6 +147,11 @@ export default defineConfig({
           },
           {
             type: "string",
+            name: "shirt_disclaimer",
+            label: "Paragraf o majicama",
+          },
+          {
+            type: "string",
             name: "first_disclaimer",
             label: "Paragraf ispod forme",
           },

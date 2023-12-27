@@ -37,6 +37,7 @@ podcast_cta_text: >
   zapratite na istom.
 shop_title: Podržite rad kupovinom proizvoda
 default_shop_image: /assets/img/Jao Mile solja.png
+shirt_disclaimer: 'Veličinu majice ostavite u komentaru ispod'
 first_disclaimer: 'Narudzbine saljemo poštom, placanje pouzećem.'
 second_disclaimer: 'Pošiljke šaljemo unutar Srbije, i u Bosnu i Hercegovinu.'
 products:
@@ -46,7 +47,17 @@ products:
   - title: Knjiga 'Crno na Belo'
     image: /assets/img/Crno na belo.jpeg
     price: 1200
+  - title: 'Majica Bela (S, M, L, XL)'
+    image: /assets/img/Jao_Mile_bela.png
+    price: 2790
+  - title: 'Majica Crna (S, M, L, XL)'
+    image: /assets/img/Jao_Mile_crna.png
+    price: 2790
 ---
+
+
+
+
 
 
 
