@@ -519,6 +519,14 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
 }
 
 
+@media (min-width: 1024px) {
+  .lg\:flex-nowrap {
+    flex-wrap: nowrap;
+  }
+  
+}
+
+
 @media  screen and (max-width: 500px) {
   body {
     padding-top: 116px;
