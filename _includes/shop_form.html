@@ -1,7 +1,7 @@
 <div id="shop" class="container mx-auto pt-40 pb-20 md:py-40">
   <h2 class="section-title mb-8 md:mb-20">{{ page.shop_title }}</h2>
   <div class="flex flex-col items-center justify-evenly">
-    <div class="flex flex-wrap gap-x-4 lg:flex-nowrap items-center justify-evenly w-full mb-12">
+    <div class="flex flex-wrap lg:gap-x-4 lg:flex-nowrap items-center justify-evenly w-full mb-12">
       {% for product in page.products %}
         <div class="product-image-wrapper flex items-center justify-center">
             <img class="product-image" src="{{product.image}}" alt="{{ product.title }}">
