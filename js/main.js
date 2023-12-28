@@ -63,7 +63,7 @@ import SmoothScroll from './smoothScroll.js'
 
   const animateBlob = e => {
     const x = e.clientX - blob.offsetWidth / 2,
-          y = e.clientY - blob.offsetHeight / 2
+          y = e.clientY - blob.offsetHeight - 50
 
     const blobKeyframes = {
       transform: `translate(${x}px, ${y}px)`
@@ -86,7 +86,7 @@ import SmoothScroll from './smoothScroll.js'
         servicesSection = document.getElementById('services')
   const animateTrailer = (e, interacting) => {
     const x = e.clientX - trailer.offsetWidth / 2,
-          y = e.clientY - trailer.offsetHeight / 2
+          y = e.clientY - trailer.offsetHeight
 
     const keyframes = {
       transform: `translate(${x}px, ${y}px) scale(${interacting ? 5 : 1})`
