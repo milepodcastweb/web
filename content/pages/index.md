@@ -48,7 +48,7 @@ products:
     image: /assets/img/jao_mile_majica_bela.png
     price: 2790
   - title: 'Majica Crna (S, M, L, XL, 2XL)'
-    image: /assets/img/Jao-Mile-crna-majica.png
+    image: /assets/img/jao_mile_majica_crna.png
     price: 2790
 shirt_disclaimer: Veličinu majice ostavite u komentaru ispod
 first_disclaimer: 'Narudzbine saljemo poštom, placanje pouzećem.'
