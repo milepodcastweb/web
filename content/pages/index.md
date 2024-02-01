@@ -45,7 +45,7 @@ products:
     image: /assets/img/Crno na belo.jpeg
     price: 1200
   - title: 'Majica Bela (S, M, L, XL, 2XL)'
-    image: /assets/img/Jao-Mile-bela-majica.png
+    image: /assets/img/jao_mile_majica_bela.png
     price: 2790
   - title: 'Majica Crna (S, M, L, XL, 2XL)'
     image: /assets/img/Jao-Mile-crna-majica.png
