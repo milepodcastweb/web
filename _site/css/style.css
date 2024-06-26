@@ -779,7 +779,7 @@ section.horizontal .animation-wrap .item:nth-child(4n+4) {
   }
   .product-image-wrapper,
   .product-image-wrapper:nth-child(1) {
-    max-width: 25%;
+    max-width: 33%;
     height: auto;
   }
   .form-container .product-label {
