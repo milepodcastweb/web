@@ -41,17 +41,28 @@ products:
   - title: Šolja 'Jao Mile'
     image: /assets/img/Jao Mile solja.png
     price: 1100
-  - title: Knjiga 'Crno na Belo'
-    image: /assets/img/Crno na belo.jpeg
-    price: 1200
   - title: 'Majica Bela (S, M, L, XL, 2XL)'
     image: /assets/img/jao_mile_majica_bela.png
     price: 2790
   - title: 'Majica Crna (S, M, L, XL, 2XL)'
     image: /assets/img/jao_mile_majica_crna.png
     price: 2790
+  - title: 'Majica Logo - Svetlo Plava (M, L, XL, 2XL, 3XL)'
+    image: /assets/img/Jao_Mile_Logo_Svetlo_Plava_Majica.png
+    price: 2850
+  - title: 'Majica Logo - Siva (M, L, XL, 2XL, 3XL)'
+    image: /assets/img/Jao_Mile_Logo_Siva_Majica.png
+    price: 2850
+  - title: 'Majica JAO! - Svetlo Plava (M, L, XL, 2XL, 3XL)'
+    image: /assets/img/Jao_Mile_JAO_Svetlo_Plava_Majica.png
+    price: 2850
+  - title: 'Majica JAO! - Siva (M, L, XL, 2XL, 3XL)'
+    image: /assets/img/Jao_Mile_JAO_Siva_Majica.png
+    price: 2850
 shirt_disclaimer: Veličinu majice ostavite u komentaru ispod
 first_disclaimer: 'Narudzbine saljemo poštom, placanje pouzećem.'
 second_disclaimer: 'Pošiljke šaljemo unutar Srbije, i u Bosnu i Hercegovinu.'
 ---
+
+
 

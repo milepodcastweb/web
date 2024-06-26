@@ -196,7 +196,7 @@
         <div class="hero-image-container" data-transform-value="0">
           <div class="hero-image relative reveal-right-delay-1s">
             <div class="overlay"></div>
-            <img src="/assets/img/image00001.jpg" alt="Mile Ilić">
+            <img src="/assets/img/image00001.jpg" alt="">
             <div class="arrow-down block md:hidden">
               <svg id="Chevrons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 55 55" class="img-svg">
                 <defs>
@@ -230,7 +230,7 @@
   <section id="about" class="py-8 md:py-20 relative">
     <div class="container mx-auto relative flex flex-col items-center justify-center py-20 text-white z-10">
       <div class="about-logo mb-16 reveal">
-        <img src="/assets/img/logo_white_letter.png" alt="Mile Ilić logo">
+        <img src="/assets/img/logo_white_letter.png" alt=" logo">
       </div>
       <div class="about-text reveal">
         <p>Podkast Jao Mile je osmišljen i koncipiran u vidu autorske emisije koja se bavi pitanjima profesionalne košarkaške karijere iz ugla afirmisanih košarkaša, trenera, sportskih agenata.</p>
@@ -248,9 +248,7 @@
     <div class="container mx-auto">
       <div class="flex flex-col items-center justify-center">
         <div class="service-text reveal">
-          <p>Ovde ide neki tekst lorem Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non iusto eius laborum, quibusdam atque voluptate, adipisci dolores exercitationem animi quisquam totam praesentium modi asperiores aspernatur reprehenderit vitae qui voluptates a?</p>
-
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non iusto eius laborum, quibusdam atque voluptate, adipisci dolores exercitationem animi quisquam totam praesentium modi asperiores aspernatur reprehenderit vitae qui voluptates a?</p>
+          <p>Sve razgovore možete pronaći na našem YouTube kanalu uz preporuku da nas zapratite na istom.</p>
 
         </div>
         <a href="https://www.youtube.com/@JaoMilepodcast" class="service-btn relative mt-10 md:mt-16 reveal">
@@ -295,13 +293,42 @@
 </div>
 
   <div id="shop" class="container mx-auto pt-40 pb-20 md:py-40">
-  <h2 class="section-title mb-8 md:mb-20">Podržite rad kupovinom šolje</h2>
-  <div class="flex flex-col md:flex-row items-center justify-evenly">
-    <div class="mugs w-full md:w-1/2">
-      <img src="/assets/img/Jao Mile solja.png" alt="solja">
+  <h2 class="section-title mb-8 md:mb-20">Podržite rad kupovinom proizvoda</h2>
+  <div class="flex flex-col items-center justify-evenly">
+    <div class="flex flex-wrap lg:gap-4 items-center justify-evenly w-full mb-4 lg:mb-12">
+      
+        <div class="product-image-wrapper flex items-start justify-center">
+            <img class="product-image" src="/assets/img/Jao Mile solja.png" alt="Šolja 'Jao Mile'">
+        </div>
+      
+        <div class="product-image-wrapper flex items-start justify-center">
+            <img class="product-image" src="/assets/img/jao_mile_majica_bela.png" alt="Majica Bela (S, M, L, XL, 2XL)">
+        </div>
+      
+        <div class="product-image-wrapper flex items-start justify-center">
+            <img class="product-image" src="/assets/img/jao_mile_majica_crna.png" alt="Majica Crna (S, M, L, XL, 2XL)">
+        </div>
+      
+        <div class="product-image-wrapper flex items-start justify-center">
+            <img class="product-image" src="/assets/img/Jao_Mile_Logo_Svetlo_Plava_Majica.png" alt="Majica Logo - Svetlo Plava (M, L, XL, 2XL, 3XL)">
+        </div>
+      
+        <div class="product-image-wrapper flex items-start justify-center">
+            <img class="product-image" src="/assets/img/Jao_Mile_Logo_Siva_Majica.png" alt="Majica Logo - Siva (M, L, XL, 2XL, 3XL)">
+        </div>
+      
+        <div class="product-image-wrapper flex items-start justify-center">
+            <img class="product-image" src="/assets/img/Jao_Mile_JAO_Svetlo_Plava_Majica.png" alt="Majica JAO! - Svetlo Plava (M, L, XL, 2XL, 3XL)">
+        </div>
+      
+        <div class="product-image-wrapper flex items-start justify-center">
+            <img class="product-image" src="/assets/img/Jao_Mile_JAO_Siva_Majica.png" alt="Majica JAO! - Siva (M, L, XL, 2XL, 3XL)">
+        </div>
+      
     </div>
-    <div class="form-container">
-      <form class="mt-6" method="POST" action="https://formsubmit.co/office@jaomile.com">
+
+    <div class="form-container mx-auto">
+      <form class="mt-6" id="form" method="POST" action="https://formsubmit.co/jaomilepodcast@gmail.com">
         <div class="my-4 reveal">
           <div class="form-label md:block text-white">Ime i prezime:</div>
           <input type="text" id="fullname" name="Ime i prezime" placeholder="Puno ime i prezime" class="input" required />
@@ -312,23 +339,71 @@
         </div>
         <div class="my-4 reveal">
           <div class="form-label md:block text-white">Email:</div>
-          <input type="text" id="email" name="Email" placeholder="email" class="input" required />
+          <input type="email" id="email" name="Email" placeholder="email@gmail.com" class="input" required />
+        </div>
+        <div class="my-4 reveal">
+          <div class="form-label md:block text-white">Adresa:</div>
+          <input type="text" id="address" name="Adresa" placeholder="Puna adresa" class="input" required />
+        </div>
+        <div class="my-4 reveal">
+          <div class="form-label md:block text-white">Izaberite proizvod:</div>
+          <div class="mt-2 mb-6">
+            
+              <label for="product-1" class="product-label flex items-center">
+                <input type="checkbox" id="product-1" name="Proizvod_1" value="Šolja 'Jao Mile' : 1100" data-image="/assets/img/Jao Mile solja.png">
+                Šolja 'Jao Mile' - (1100 RSD)
+              </label>
+            
+              <label for="product-2" class="product-label flex items-center">
+                <input type="checkbox" id="product-2" name="Proizvod_2" value="Majica Bela (S, M, L, XL, 2XL) : 2790" data-image="/assets/img/jao_mile_majica_bela.png">
+                Majica Bela (S, M, L, XL, 2XL) - (2790 RSD)
+              </label>
+            
+              <label for="product-3" class="product-label flex items-center">
+                <input type="checkbox" id="product-3" name="Proizvod_3" value="Majica Crna (S, M, L, XL, 2XL) : 2790" data-image="/assets/img/jao_mile_majica_crna.png">
+                Majica Crna (S, M, L, XL, 2XL) - (2790 RSD)
+              </label>
+            
+              <label for="product-4" class="product-label flex items-center">
+                <input type="checkbox" id="product-4" name="Proizvod_4" value="Majica Logo - Svetlo Plava (M, L, XL, 2XL, 3XL) : 2850" data-image="/assets/img/Jao_Mile_Logo_Svetlo_Plava_Majica.png">
+                Majica Logo - Svetlo Plava (M, L, XL, 2XL, 3XL) - (2850 RSD)
+              </label>
+            
+              <label for="product-5" class="product-label flex items-center">
+                <input type="checkbox" id="product-5" name="Proizvod_5" value="Majica Logo - Siva (M, L, XL, 2XL, 3XL) : 2850" data-image="/assets/img/Jao_Mile_Logo_Siva_Majica.png">
+                Majica Logo - Siva (M, L, XL, 2XL, 3XL) - (2850 RSD)
+              </label>
+            
+              <label for="product-6" class="product-label flex items-center">
+                <input type="checkbox" id="product-6" name="Proizvod_6" value="Majica JAO! - Svetlo Plava (M, L, XL, 2XL, 3XL) : 2850" data-image="/assets/img/Jao_Mile_JAO_Svetlo_Plava_Majica.png">
+                Majica JAO! - Svetlo Plava (M, L, XL, 2XL, 3XL) - (2850 RSD)
+              </label>
+            
+              <label for="product-7" class="product-label flex items-center">
+                <input type="checkbox" id="product-7" name="Proizvod_7" value="Majica JAO! - Siva (M, L, XL, 2XL, 3XL) : 2850" data-image="/assets/img/Jao_Mile_JAO_Siva_Majica.png">
+                Majica JAO! - Siva (M, L, XL, 2XL, 3XL) - (2850 RSD)
+              </label>
+            
+          </div>
+          <div class="newsletterPopupAdditionalText text-left mt-6">
+            <div class="reveal text-lg">* Veličinu majice ostavite u komentaru ispod </div>
+          </div>
         </div>
         <div class="my-4 reveal">
           <div class="form-label md:block text-white">Dodatni tekst:</div>
           <textarea id="additionaltext" name="Dodatni tekst" rows="4" cols="50"> </textarea>
         </div>
         <input type="hidden" name="_subject" value="Porucivanje šolje preko sajta!">
-        <input type="hidden" name="_next" value="https://jao-mile.vercel.app//">
+        <input type="hidden" name="_next" value="https://jaomile.com/">
         <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_autoresponse" value="Hvala na porudzbini!">
+        <input type="hidden" name="_autoresponse" value="Hvala na porudzbini!">
         <div class="md:w-1/2 mx-auto reveal">
           <button type="submit" class="form-button w-full py-3 mx-auto">Pošalji</button>
         </div>
       </form>
       <div class="newsletterPopupAdditionalText text-center mt-6">
-        <div class="reveal">* Narudzbine saljemo poštom, placanje pouzećem. </div>
-        <div class="reveal">** Pošiljke šaljemo unutar Srbije, i u Bosnu i Hercegovinu. </div>
+        <div class="reveal">** Narudzbine saljemo poštom, placanje pouzećem. </div>
+        <div class="reveal">*** Pošiljke šaljemo unutar Srbije, i u Bosnu i Hercegovinu. </div>
       </div>
     </div>
   </div>

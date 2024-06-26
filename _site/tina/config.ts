@@ -54,13 +54,13 @@ export default defineConfig({
           },
           {
             type: "string",
-            name: "author_name",
-            label: "Ime i prezime",
+            name: "main_title",
+            label: "Naslov (ime i prezime)",
           },
           {
             type: "rich-text",
             name: "hero_text",
-            label: "Tekst ispod imena",
+            label: "Tekst ispod naslova",
           },
           {
             type: "image",
@@ -110,12 +110,45 @@ export default defineConfig({
           {
             type: "string",
             name: "shop_title",
-            label: "Naslov iznad forme",
+            label: "Naslov sekcije za kupovinu",
           },
           {
             type: "image",
-            name: "mug_image",
-            label: "Slika šolje",
+            name: "default_shop_image",
+            label: "Defaultna slika za proizvod",
+          },
+          {
+            type: "object",
+            name: "products",
+            label: "Proizvodi",
+            list: true,
+            ui: {
+              itemProps: (item) => {
+                return { label: `${item?.title} - ${item?.price},00 RSD` }
+              },
+            },
+            fields: [
+              {
+                type: "string",
+                name: "title",
+                label: "Naziv",
+              },
+              {
+                type: "image",
+                name: "image",
+                label: "Slika",
+              },
+              {
+                type: "number",
+                name: "price",
+                label: "Cena",
+              },
+            ],
+          },
+          {
+            type: "string",
+            name: "shirt_disclaimer",
+            label: "Paragraf o majicama",
           },
           {
             type: "string",
